@@ -1,0 +1,60 @@
+name: waste_management_system
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  cupertino_icons: ^1.0.2
+  video_player: ^2.8.1
+  http: ^1.6.0
+  shared_preferences: ^2.5.4
+  intl: ^0.20.2
+  carousel_slider: ^5.1.2
+  image_picker: ^1.2.1
+  google_sign_in: ^6.2.1
+  google_maps_flutter: ^2.6.1
+  geolocator: ^10.1.0
+  geocoding: ^4.0.0
+  mobile_scanner: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/ecogurd.png
+    - assets/news/slider1.jpeg
+    - assets/news/slider2.jpeg
+    - assets/news/slider3.jpeg
+    - assets/news/slider4.jpeg
+    - assets/news/slider5.jpeg
+    - assets/news/slider6.jpeg
+    - assets/images/garbage_bag.jpeg
+    - assets/images/paper_bag.jpeg
+    - assets/products/flowerpot.jpeg
+    - assets/products/Seedspack.jpeg
+    - assets/products/plant.jpeg
+    - assets/products/compost.jpeg
+    - assets/products/gardenkits.jpeg
+    - assets/products/fertilizer.jpeg
+    - assets/products/tomotosapling.jpeg
+    - assets/products/mangosapling.jpeg
+    - assets/products/apple.jpeg
+    - assets/products/coconut.jpeg
+    - assets/vehicles/vehicle1.jpeg
+    - assets/vehicles/vehicle2.jpeg
+    - assets/vehicles/vehicle3.jpeg
+    - assets/vehicles/vehicle_placeholder.jpeg
